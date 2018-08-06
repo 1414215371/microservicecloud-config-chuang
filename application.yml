@@ -1,0 +1,17 @@
+﻿spring
+ prodiles:
+  active:
+   -dev
+---
+spring
+ prodiles:dev  #开发环境
+  application:
+   name:microservicecloud-config-chuang-dev
+---
+spring
+ prodiles:test   #测试环境
+  application:
+   name:microservicecloud-config-chuang-test
+   
+   
+   
